@@ -155,7 +155,7 @@ public class Practice9Test {
 		} catch (Exception e) {
 			System.out.println("[   ] = Failed advanced insert / remove test.");
 		}
-		
+
 		// Test 3: full ordering test (always rearranges to a minheap?)
 		try {
 			if (fullOrderingTest()) {
@@ -185,7 +185,7 @@ public class Practice9Test {
 		System.out.println("-----------------------------------------");
 		System.out.println("Starting point for this assignment: " + grade + "%.");
 	}
-	
+
 
 	public static void main(String[] args) {
 		Practice9Test test = new Practice9Test();
